@@ -113,10 +113,7 @@ padding: 24px 0;
 .header-adress-menu{
 display: flex;
     gap: 40px;
-}
-.header-adress-item
-{
-
+    align-items: center;
 }
 /* herro-section */
 .hero-section{
