@@ -26,6 +26,19 @@ a {
 img{display: block;}
 
 
+ .visually-hidden {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+     border: 0;
+     padding: 0;
+
+     white-space: nowrap;
+     clip-path: inset(100%);
+     clip: rect(0 0 0 0);
+     overflow: hidden;
+ }
 .container
 {
 width: 1158px;
@@ -43,6 +56,7 @@ border-bottom: 1px solid #e7e9fc;
 .header-box
 {
 display: flex;
+align-items: center;
 
 }
 
@@ -109,19 +123,22 @@ padding: 24px 0 ;
 
 }
 .header-adress-menu{
-display: flex;
+    display: flex;
     gap: 40px;
     align-items: center;
     padding: 24px 0;
+   
 
 }
 .header-adress-item{
-    
+
 }
 /* herro-section */
 .hero-section{
     background-color: var(--color-secundery);
+    padding: 188px 0;
 }
+
 .hero-title{
     color:var(--color-hero-title-text);
     font-weight: 700;
@@ -129,8 +146,18 @@ display: flex;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    margin: auto;
+    max-width: 496px
+    
 }
-.hero-button{background-color:var(--color-brend);
+.box-herro-title
+{
+width: 496px;
+height: 120px;
+
+}
+.hero-button{
+    background-color:var(--color-brend);
     color: var(--color-hero-button-text);
     border: none;
     font-weight: 500;
@@ -140,6 +167,14 @@ display: flex;
     text-align: center;
     cursor: pointer;
     letter-spacing: 0.04em;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 48px;
 
 }
 .hero-button:hover,.hero-button:focus{
@@ -148,6 +183,13 @@ background-color: var(--color-brend-hover);
 /* advatages section */
 .advantages-section
 {
+padding: 120px 0;
+
+}
+
+.box-advantages
+{
+
 
 }
 .advantages-title{
@@ -159,7 +201,8 @@ background-color: var(--color-brend-hover);
 }
 .advantages-list
 {
-
+display: flex;
+gap: 24px;
 }
 .advantages-item
 {
