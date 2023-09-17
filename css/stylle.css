@@ -188,7 +188,9 @@ padding: 120px 0;
 
 }
 
-
+.advantages-item{
+    width: calc((100% - 72px) / 4);
+}
 .advantages-title{
     color: var(--color-secundery);
     font-size: 20px;
