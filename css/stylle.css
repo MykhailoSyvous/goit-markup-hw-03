@@ -209,7 +209,7 @@ gap: 24px;
 .advantages-item
 {
     
-width: calc((100% - 72px) / 4);
+flex-basis: calc((100% - 72px) / 4)
 
 }
 
@@ -324,6 +324,7 @@ border-top: none;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--color-secundery);
+    margin-bottom: 8px;
 }
 .activity{
     line-height: 24px;
