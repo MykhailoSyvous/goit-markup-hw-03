@@ -239,12 +239,12 @@ width: calc((100% - 72px) / 4);
 
 .our-team-list
 {
-
+display: flex;
 }
 
 .team-img
 {
-
+width: 100%;
 }
 .baskgraund-person{
     background-color:var(--color-hero-title-text);
@@ -274,7 +274,8 @@ padding: 32px 0;
     
     color: var(--color-grimery);
     line-height: 1.5;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 /* portfolio */
 
