@@ -190,6 +190,8 @@ padding: 120px 0;
 
 .advantages-item{
     width: calc((100% - 72px) / 4);
+    margin: 0;
+    padding: 0;
 }
 .advantages-title{
     color: var(--color-secundery);
