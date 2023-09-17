@@ -197,7 +197,8 @@ padding: 120px 0;
     font-size: 20px;
     letter-spacing: 0.02em;
     font-weight: 500;
-    line-height: 1.2
+    line-height: 1.2;
+    margin-bottom: 8px;
 }
 .advantages-list
 {
@@ -206,6 +207,7 @@ gap: 24px;
 }
 .advantages-item
 {
+    
 width: calc((100% - 72px) / 4);
 
 }
@@ -218,6 +220,7 @@ width: calc((100% - 72px) / 4);
 /* our-team-sections */
 .our-team-sections{
     background-color: var(--backraund-section-our-team);
+    padding: 120px 0;
 }
 .box-team{
 
@@ -230,6 +233,7 @@ width: calc((100% - 72px) / 4);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--color-secundery);
+    margin-bottom: 72px;
     
 }
 
@@ -249,7 +253,7 @@ width: calc((100% - 72px) / 4);
 }
 .box-name-profetion
 {
-
+padding: 32px 0;
 }
 .name-employees{
     font-size: 20px;
@@ -257,8 +261,15 @@ width: calc((100% - 72px) / 4);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-secundery);
+    text-align: center;
+    margin-bottom: 8px;
+    text-align: center;
 }
 
+.our-team-list{
+    display: flex;
+    gap: 24px;
+}
 .profetion{
     
     color: var(--color-grimery);
