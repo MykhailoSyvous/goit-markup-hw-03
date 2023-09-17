@@ -188,11 +188,7 @@ padding: 120px 0;
 
 }
 
-.box-advantages
-{
 
-
-}
 .advantages-title{
     color: var(--color-secundery);
     font-size: 20px;
@@ -206,12 +202,6 @@ padding: 120px 0;
 display: flex;
 gap: 24px;
 }
-.advantages-item
-{
-    
-flex-basis: calc((100% - 72px) / 4)
-
-}
 
 .text-advantages{
     color: var(--color-grimery);
@@ -223,9 +213,7 @@ flex-basis: calc((100% - 72px) / 4)
     background-color: var(--backraund-section-our-team);
     padding: 120px 0;
 }
-.box-team{
 
-}
 .title-sections{
     font-size: 36px;
     font-weight: 700;
@@ -286,10 +274,7 @@ padding: 120px 0;
    
 }
 
- .box-portfolio 
- {
-
- }
+ 
 
 .portfolio-list
 {
@@ -306,10 +291,9 @@ padding: 0;
 width: calc((100% - 48px) / 3);
 }
 
-.portfolio-img
-{
 
-}
+
+
 .box-app{
 padding: 32px 16px;
 
@@ -336,9 +320,7 @@ border-top: none;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.box-footer{
 
-}
 .footer-logo{
 color:var(--color-brend);
 text-decoration: none;
