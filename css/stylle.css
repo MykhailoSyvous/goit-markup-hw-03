@@ -240,6 +240,8 @@ width: calc((100% - 72px) / 4);
 .our-team-list
 {
 display: flex;
+margin: 0;
+padding: 0;
 }
 
 .team-img
@@ -298,6 +300,8 @@ display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
+margin: 0;
+padding: 0;
 }
 
 .portfolio-item
