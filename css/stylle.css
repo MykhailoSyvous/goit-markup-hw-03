@@ -190,8 +190,7 @@ padding: 120px 0;
 
 .advantages-item{
     width: calc((100% - 72px) / 4);
-    margin: 0;
-    padding: 0;
+
 }
 .advantages-title{
     color: var(--color-secundery);
@@ -259,8 +258,7 @@ padding: 32px 0;
 .our-team-list{
     display: flex;
     gap: 24px;
-    padding: 0;
-margin: 0;
+  
 }
 .profetion{
     
@@ -286,8 +284,7 @@ display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
-margin: 0;
-padding: 0;
+
 }
 
 .portfolio-item
