@@ -331,6 +331,11 @@ margin-bottom: 8px;
 /* footer */
 .footer-sections{
     background-color: var(--color-secundery);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.box-footer{
+
 }
 .footer-logo{
 color:var(--color-brend);
@@ -342,6 +347,8 @@ line-height: 21px;
 text-transform: uppercase;
 line-height: 1.17;
 letter-spacing: 0.03em;
+display: inline-block;
+margin-bottom: 16px;
 }
 .footer-logo-akcent{
 color: var(--backraund-section-our-team)
@@ -351,5 +358,6 @@ color: var(--backraund-section-our-team)
     color: var(--footer-text);
     line-height: 24px;
     letter-spacing: 0.02em;
+    max-width: 264px;
 
 }
