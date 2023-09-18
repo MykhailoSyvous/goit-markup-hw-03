@@ -79,14 +79,15 @@ align-items: center;
 {
 display: flex;
 align-items: center;
-margin-right: 76px;
+margin-right: auto;
 }
 .nav-menu
 {
 display: flex;
  align-items: flex-start;
  gap: 40px;
-
+margin: 0;
+    padding: 0;
 }
 
 .nav-intem
@@ -104,6 +105,7 @@ padding: 24px 0 ;
         font-style: normal;
         letter-spacing: 0.02em;
         padding: 24px 0;
+        display: block;
         
 }
 .header-link:hover,.header-link:focus{
@@ -118,17 +120,14 @@ padding: 24px 0 ;
 .contacts-link:hover,.contacts-link:focus{color: var(--color-brend-hover);
     
 }
-.header-adress
-{
-margin-left: 210px;
-display: inline-block;
-}
+
 .header-adress-menu{
     display: flex;
     gap: 40px;
     align-items: center;
     padding: 24px 0;
-   
+margin: 0;
+    padding: 0;
 
 }
 
@@ -194,6 +193,7 @@ padding: 120px 0;
     font-weight: 500;
     line-height: 1.2;
     margin-bottom: 8px;
+    margin-top: 0;
 }
 .advantages-list
 {
@@ -213,6 +213,7 @@ flex-basis: calc((100% - 72px) / 4)
     color: var(--color-grimery);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin: 0;
 }
 /* our-team-sections */
 .our-team-sections{
@@ -229,6 +230,7 @@ flex-basis: calc((100% - 72px) / 4)
     text-transform: capitalize;
     color: var(--color-secundery);
     margin-bottom: 72px;
+    margin-top: 0;
     
 }
 
@@ -256,6 +258,7 @@ padding: 32px 0;
     text-align: center;
     margin-bottom: 8px;
     text-align: center;
+    margin-top: 0;
 }
 
 .our-team-list{
@@ -270,6 +273,7 @@ padding: 32px 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin: 0;
 }
 /* portfolio */
 
@@ -313,10 +317,12 @@ border-top: none;
     letter-spacing: 0.02em;
     color: var(--color-secundery);
     margin-bottom: 8px;
+    margin-top: 0;
 }
 .activity{
     line-height: 24px;
     letter-spacing: 0.02em;
+    margin: 0;
 }
 /* footer */
 .footer-sections{
@@ -347,5 +353,5 @@ color: var(--backraund-section-our-team)
     line-height: 24px;
     letter-spacing: 0.02em;
     max-width: 264px;
-
+margin: 0;
 }
